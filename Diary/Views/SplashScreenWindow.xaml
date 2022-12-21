@@ -1,0 +1,14 @@
+﻿<mah:MetroWindow x:Class="Diary.Views.SplashScreenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Height="100"
+        Width="400">
+    <Grid>
+        <ProgressBar x:Name="progressBar" />
+        <TextBlock HorizontalAlignment="Center"
+                   VerticalAlignment="Center">Wczytywanie Danych...</TextBlock>
+    </Grid>
+</mah:MetroWindow>
